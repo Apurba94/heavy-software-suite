@@ -1,0 +1,502 @@
+[
+ {
+  "n": 1,
+  "name": "tinysql",
+  "group": "Systems from scratch",
+  "title": "TinySQL",
+  "topic": "database",
+  "desc": "A relational database engine from scratch: SQL parser, on-disk B-tree pages, joins, aggregates, indexes and crash-safe transactions.",
+  "tests": 24,
+  "lines": 2050
+ },
+ {
+  "n": 2,
+  "name": "forge-lang",
+  "group": "Systems from scratch",
+  "title": "Forge",
+  "topic": "compiler",
+  "desc": "A small statically typed programming language: lexer, parser, type checker, bytecode compiler, optimiser and stack virtual machine.",
+  "tests": 29,
+  "lines": 1504
+ },
+ {
+  "n": 3,
+  "name": "tinygit",
+  "group": "Systems from scratch",
+  "title": "TinyGit",
+  "topic": "version-control",
+  "desc": "Version control from scratch: content-addressed objects, commits, branches, diffs and three-way merges with conflict markers.",
+  "tests": 27,
+  "lines": 1150
+ },
+ {
+  "n": 4,
+  "name": "tinyredis",
+  "group": "Systems from scratch",
+  "title": "TinyRedis",
+  "topic": "key-value-store",
+  "desc": "An in-memory data server speaking the Redis protocol: strings, lists, hashes, sorted sets, expiry, pub/sub and an append-only log.",
+  "tests": 30,
+  "lines": 1251
+ },
+ {
+  "n": 5,
+  "name": "textsearch",
+  "group": "Systems from scratch",
+  "title": "TextSearch",
+  "topic": "search-engine",
+  "desc": "A full-text search engine: on-disk inverted index, BM25 ranking, phrase and boolean queries, fuzzy matching and highlighted snippets.",
+  "tests": 27,
+  "lines": 992
+ },
+ {
+  "n": 6,
+  "name": "sheetcalc",
+  "group": "Systems from scratch",
+  "title": "SheetCalc",
+  "topic": "spreadsheet",
+  "desc": "A spreadsheet engine: formula parser, dependency graph, incremental recalculation, cycle detection and 40 built-in functions.",
+  "tests": 30,
+  "lines": 1046
+ },
+ {
+  "n": 7,
+  "name": "flowqueue",
+  "group": "Systems from scratch",
+  "title": "FlowQueue",
+  "topic": "workflow-engine",
+  "desc": "A durable job queue and workflow engine: retries with backoff, cron schedules, DAG pipelines and crash recovery on SQLite.",
+  "tests": 26,
+  "lines": 729
+ },
+ {
+  "n": 8,
+  "name": "tinyhttp",
+  "group": "Systems from scratch",
+  "title": "TinyHTTP",
+  "topic": "http-server",
+  "desc": "An HTTP/1.1 server from raw sockets: request parser, router, middleware, keep-alive, static files and WebSockets on asyncio.",
+  "tests": 29,
+  "lines": 910
+ },
+ {
+  "n": 9,
+  "name": "netsim-lab",
+  "group": "Systems from scratch",
+  "title": "NetSim Lab",
+  "topic": "network-simulator",
+  "desc": "A network simulator for teaching: links, switches, routers, link-state routing and a TCP with retransmission and congestion control.",
+  "tests": 31,
+  "lines": 1018
+ },
+ {
+  "n": 10,
+  "name": "cpu16",
+  "group": "Systems from scratch",
+  "title": "CPU16",
+  "topic": "emulator",
+  "desc": "A 16-bit computer from scratch: instruction set, two-pass assembler, emulator with interrupts, debugger and disassembler.",
+  "tests": 26,
+  "lines": 855
+ },
+ {
+  "n": 11,
+  "name": "map-evaluator",
+  "group": "AI and vision research",
+  "title": "mAP Evaluator",
+  "topic": "object-detection",
+  "desc": "A from-scratch COCO-style detection evaluator: mAP, AR, per-class and size breakdowns, and an error analysis of what went wrong.",
+  "tests": 27,
+  "lines": 597
+ },
+ {
+  "n": 12,
+  "name": "trustscore",
+  "group": "AI and vision research",
+  "title": "TrustScore",
+  "topic": "calibration",
+  "desc": "Model trust toolkit: calibration error, temperature scaling, reliability data, and conformal prediction sets and intervals with coverage.",
+  "tests": 24,
+  "lines": 510
+ },
+ {
+  "n": 13,
+  "name": "labelcheck",
+  "group": "AI and vision research",
+  "title": "LabelCheck",
+  "topic": "label-quality",
+  "desc": "Find label errors in datasets with confident learning, near-duplicate detection, and agreement statistics between annotators.",
+  "tests": 26,
+  "lines": 540
+ },
+ {
+  "n": 14,
+  "name": "annotation-forge",
+  "group": "AI and vision research",
+  "title": "Annotation Forge",
+  "topic": "annotation",
+  "desc": "Convert detection labels between YOLO, COCO and Pascal VOC, validate them, and make stratified group splits that stop data leakage.",
+  "tests": 24,
+  "lines": 574
+ },
+ {
+  "n": 15,
+  "name": "corrupt-lab",
+  "group": "AI and vision research",
+  "title": "Corrupt Lab",
+  "topic": "robustness",
+  "desc": "Image corruption and stain augmentation in NumPy: noise, blur, weather, JPEG-style blocking and H&E stain jitter at set severities.",
+  "tests": 25,
+  "lines": 550
+ },
+ {
+  "n": 16,
+  "name": "numpy-cnn",
+  "group": "AI and vision research",
+  "title": "NumPy CNN",
+  "topic": "deep-learning",
+  "desc": "A deep-learning framework in NumPy: reverse-mode autograd, convolutions, batch norm, residual blocks, optimisers and a training loop.",
+  "tests": 28,
+  "lines": 751
+ },
+ {
+  "n": 17,
+  "name": "track-lab",
+  "group": "AI and vision research",
+  "title": "Track Lab",
+  "topic": "object-tracking",
+  "desc": "Multi-object tracking from scratch: Kalman filter, Hungarian matching, SORT and ByteTrack, with MOTA, IDF1 and HOTA metrics.",
+  "tests": 26,
+  "lines": 583
+ },
+ {
+  "n": 18,
+  "name": "seedbench",
+  "group": "AI and vision research",
+  "title": "SeedBench",
+  "topic": "statistics",
+  "desc": "Honest model comparison: multi-seed result sets, paired tests, bootstrap intervals, Holm correction and publication-ready LaTeX tables.",
+  "tests": 31,
+  "lines": 664
+ },
+ {
+  "n": 19,
+  "name": "treeboost",
+  "group": "AI and vision research",
+  "title": "TreeBoost",
+  "topic": "machine-learning",
+  "desc": "Tree ensembles from scratch in NumPy: decision trees, random forests and histogram gradient boosting with feature importance.",
+  "tests": 24,
+  "lines": 724
+ },
+ {
+  "n": 20,
+  "name": "fairaudit",
+  "group": "AI and vision research",
+  "title": "FairAudit",
+  "topic": "fairness",
+  "desc": "Audit a model across subgroups: fairness metrics with confidence intervals, threshold tuning and generated model cards.",
+  "tests": 19,
+  "lines": 399
+ },
+ {
+  "n": 21,
+  "name": "examforge",
+  "group": "Education and ICT teaching",
+  "title": "ExamForge",
+  "topic": "assessment",
+  "desc": "A question bank and exam builder: blueprints, shuffled paper sets, answer keys, marking and classical item analysis.",
+  "tests": 30,
+  "lines": 619
+ },
+ {
+  "n": 22,
+  "name": "gradepath",
+  "group": "Education and ICT teaching",
+  "title": "GradePath",
+  "topic": "gradebook",
+  "desc": "A competency-based gradebook: weighted assessments, rubrics, competency mastery, report cards and class analytics.",
+  "tests": 28,
+  "lines": 487
+ },
+ {
+  "n": 23,
+  "name": "timetable-solver",
+  "group": "Education and ICT teaching",
+  "title": "Timetable Solver",
+  "topic": "scheduling",
+  "desc": "A school timetable solver: hard and soft constraints, backtracking with propagation, simulated annealing and printable timetables.",
+  "tests": 17,
+  "lines": 515
+ },
+ {
+  "n": 24,
+  "name": "autograder-py",
+  "group": "Education and ICT teaching",
+  "title": "AutoGrader",
+  "topic": "autograding",
+  "desc": "Grade Python programming assignments: isolated runs with limits, hidden tests, partial marks and code similarity reports.",
+  "tests": 26,
+  "lines": 520
+ },
+ {
+  "n": 25,
+  "name": "recall-cards",
+  "group": "Education and ICT teaching",
+  "title": "Recall Cards",
+  "topic": "spaced-repetition",
+  "desc": "A spaced-repetition study app with SM-2 and FSRS-style scheduling, decks, statistics and retention forecasts, offline in the browser.",
+  "tests": 28,
+  "lines": 418
+ },
+ {
+  "n": 26,
+  "name": "bubblesheet",
+  "group": "Education and ICT teaching",
+  "title": "BubbleSheet",
+  "topic": "omr",
+  "desc": "Optical mark recognition: print bubble answer sheets, then read phone photos with perspective correction, and mark them automatically.",
+  "tests": 18,
+  "lines": 537
+ },
+ {
+  "n": 27,
+  "name": "typing-lab",
+  "group": "Education and ICT teaching",
+  "title": "Typing Lab",
+  "topic": "typing-tutor",
+  "desc": "An offline typing tutor for English and Bangla: adaptive lessons from weak keys, speed and accuracy tracking, and class reports.",
+  "tests": 22,
+  "lines": 306
+ },
+ {
+  "n": 28,
+  "name": "ictlab-manager",
+  "group": "Education and ICT teaching",
+  "title": "ICT Lab Manager",
+  "topic": "it-asset-management",
+  "desc": "Run a computer lab: device inventory, bookings without clashes, fault tickets, maintenance schedules and licence tracking.",
+  "tests": 22,
+  "lines": 404
+ },
+ {
+  "n": 29,
+  "name": "curriculum-mapper",
+  "group": "Education and ICT teaching",
+  "title": "Curriculum Mapper",
+  "topic": "curriculum",
+  "desc": "Map competencies to units, lessons and assessments, find coverage gaps, check hours and sequence prerequisites.",
+  "tests": 23,
+  "lines": 412
+ },
+ {
+  "n": 30,
+  "name": "attendance-radar",
+  "group": "Education and ICT teaching",
+  "title": "Attendance Radar",
+  "topic": "attendance",
+  "desc": "Attendance registers with early warning: streaks, trend detection and at-risk learner lists a teacher can act on.",
+  "tests": 22,
+  "lines": 399
+ },
+ {
+  "n": 31,
+  "name": "aid-register",
+  "group": "Humanitarian field operations",
+  "title": "Aid Register",
+  "topic": "humanitarian",
+  "desc": "Offline beneficiary and distribution register: entitlements, double-collection checks and fuzzy duplicate detection across names.",
+  "tests": 25,
+  "lines": 455
+ },
+ {
+  "n": 32,
+  "name": "fieldsurvey",
+  "group": "Humanitarian field operations",
+  "title": "FieldSurvey",
+  "topic": "data-collection",
+  "desc": "Offline survey forms from a simple definition: skip logic, validation, data entry in the browser, and automatic tabulation.",
+  "tests": 24,
+  "lines": 571
+ },
+ {
+  "n": 33,
+  "name": "feedback-desk",
+  "group": "Humanitarian field operations",
+  "title": "Feedback Desk",
+  "topic": "accountability",
+  "desc": "A community feedback and complaints desk: triage, response deadlines, escalation, trend reports and safe handling of sensitive cases.",
+  "tests": 19,
+  "lines": 326
+ },
+ {
+  "n": 34,
+  "name": "relief-stock",
+  "group": "Humanitarian field operations",
+  "title": "Relief Stock",
+  "topic": "logistics",
+  "desc": "Warehouse tracking for relief items: waybills, stock cards, first-expired-first-out picking, losses and reorder forecasts.",
+  "tests": 22,
+  "lines": 396
+ },
+ {
+  "n": 35,
+  "name": "waterpoint-monitor",
+  "group": "Humanitarian field operations",
+  "title": "Waterpoint Monitor",
+  "topic": "wash",
+  "desc": "Track water points: litres per person, queue and quality readings against set targets, breakdown patterns and repair priorities.",
+  "tests": 21,
+  "lines": 348
+ },
+ {
+  "n": 36,
+  "name": "site-planner",
+  "group": "Humanitarian field operations",
+  "title": "Site Planner",
+  "topic": "site-planning",
+  "desc": "Plan a settlement on a grid: shelters, latrines, water and paths, with spacing and capacity checks and an automatic layout.",
+  "tests": 21,
+  "lines": 416
+ },
+ {
+  "n": 37,
+  "name": "shiftbuilder",
+  "group": "Humanitarian field operations",
+  "title": "ShiftBuilder",
+  "topic": "rostering",
+  "desc": "Build fair staff and volunteer rosters: skills, availability, rest rules and load balancing with an optimising solver.",
+  "tests": 17,
+  "lines": 379
+ },
+ {
+  "n": 38,
+  "name": "training-register",
+  "group": "Humanitarian field operations",
+  "title": "Training Register",
+  "topic": "training",
+  "desc": "Record trainings and participants, score pre- and post-tests, measure learning gain and issue certificates with verification codes.",
+  "tests": 24,
+  "lines": 368
+ },
+ {
+  "n": 39,
+  "name": "service-directory",
+  "group": "Humanitarian field operations",
+  "title": "Service Directory",
+  "topic": "referrals",
+  "desc": "A multilingual directory of local services: ranked matching by need and location, opening hours and gaps in coverage.",
+  "tests": 25,
+  "lines": 355
+ },
+ {
+  "n": 40,
+  "name": "sitrep-builder",
+  "group": "Humanitarian field operations",
+  "title": "SitRep Builder",
+  "topic": "reporting",
+  "desc": "Turn activity data into situation reports: a who-does-what-where matrix, indicator targets, week-on-week change and print pages.",
+  "tests": 18,
+  "lines": 323
+ },
+ {
+  "n": 41,
+  "name": "banglakit",
+  "group": "Office and Bangla tools",
+  "title": "BanglaKit",
+  "topic": "bangla",
+  "desc": "Bangla text tools: Unicode normalisation, tokenising, a rule stemmer, transliteration, number words and the Bengali calendar.",
+  "tests": 32,
+  "lines": 453
+ },
+ {
+  "n": 42,
+  "name": "docvault",
+  "group": "Office and Bangla tools",
+  "title": "DocVault",
+  "topic": "document-management",
+  "desc": "Search all your documents offline: reads text from DOCX, PDF and text files, indexes it, and finds duplicates and versions.",
+  "tests": 25,
+  "lines": 556
+ },
+ {
+  "n": 43,
+  "name": "ledgerbook",
+  "group": "Office and Bangla tools",
+  "title": "LedgerBook",
+  "topic": "accounting",
+  "desc": "Double-entry accounting for small organisations: journals, trial balance, income and balance statements and bank reconciliation.",
+  "tests": 23,
+  "lines": 450
+ },
+ {
+  "n": 44,
+  "name": "grantbudget",
+  "group": "Office and Bangla tools",
+  "title": "GrantBudget",
+  "topic": "grants",
+  "desc": "Donor budget tracking: lines and periods, actuals against budget, burn rate, spending forecast and variance reports.",
+  "tests": 20,
+  "lines": 390
+ },
+ {
+  "n": 45,
+  "name": "clinicqueue",
+  "group": "Office and Bangla tools",
+  "title": "ClinicQueue",
+  "topic": "queueing",
+  "desc": "A clinic token queue: priority levels, wait prediction, a display screen, and a queue simulator for planning staff numbers.",
+  "tests": 19,
+  "lines": 328
+ },
+ {
+  "n": 46,
+  "name": "shopdesk",
+  "group": "Office and Bangla tools",
+  "title": "ShopDesk",
+  "topic": "point-of-sale",
+  "desc": "Point of sale and stock for small shops: fast billing, purchases, customer credit, profit reports and reorder suggestions.",
+  "tests": 22,
+  "lines": 398
+ },
+ {
+  "n": 47,
+  "name": "tenderdesk",
+  "group": "Office and Bangla tools",
+  "title": "TenderDesk",
+  "topic": "procurement",
+  "desc": "Procurement records: requests, quotations, weighted bid scoring, award justification and a tamper-evident audit trail.",
+  "tests": 26,
+  "lines": 446
+ },
+ {
+  "n": 48,
+  "name": "dedupvault",
+  "group": "Office and Bangla tools",
+  "title": "DedupVault",
+  "topic": "backup",
+  "desc": "Deduplicating backups: content-defined chunking, snapshots, integrity verification, retention policies and full restore.",
+  "tests": 26,
+  "lines": 528
+ },
+ {
+  "n": 49,
+  "name": "logsentinel",
+  "group": "Office and Bangla tools",
+  "title": "LogSentinel",
+  "topic": "log-analysis",
+  "desc": "Make sense of logs: parsing, template mining, anomaly detection on rates, alert rules and incident timelines.",
+  "tests": 28,
+  "lines": 408
+ },
+ {
+  "n": 50,
+  "name": "netwatch-lite",
+  "group": "Office and Bangla tools",
+  "title": "NetWatch Lite",
+  "topic": "monitoring",
+  "desc": "Watch your own services: scheduled HTTP, TCP and disk checks, uptime and latency history, outage records and a status page.",
+  "tests": 21,
+  "lines": 443
+ }
+]
