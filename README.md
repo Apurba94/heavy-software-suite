@@ -12,7 +12,7 @@ Most need only Python. The web apps run on your own computer with no internet, a
 
 ## What was not checked
 
-The web apps have not been used by real teachers, field teams or shops, and their browser pages were not reviewed by hand. BubbleSheet is tested on simulated photos only. Each README states its own limits. These are teaching and small-scale tools, and they have not had a security review.
+The web apps have not been used by real teachers, field teams or shops. Three of them were reviewed on screen at phone and desktop sizes, in light and dark mode, which found three layout problems that the tests had missed, all now fixed. The other 22 share the same styling, but were not looked at one by one. BubbleSheet is tested on simulated photos only. Each README states its own limits. These are teaching and small-scale tools, and they have not had a security review.
 
 These projects were built with AI assistance (Claude Code), as each commit records.
 
